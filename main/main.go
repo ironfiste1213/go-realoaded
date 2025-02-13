@@ -22,7 +22,7 @@ func main() {
 		return
 	}
 	scanner := bufio.NewScanner(file)
-	if filepath.Ext(os.Args[1]) != ".txt"  || filepath.Ext(os.Args[2]) != ".txt" || filepath.Ext(os.Args[2]) == filepath.Ext(os.Args[1]) {
+	if filepath.Ext(os.Args[1]) != ".txt"  || filepath.Ext(os.Args[2]) != ".txt"  {
 		fmt.Println("use .txt and file1 != file2" )
 		return
 	}
